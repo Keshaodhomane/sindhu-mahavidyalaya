@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+
+
+p, ul, li, a, h1, h2, h3, h4, h5, hr{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family:"roboto";
+    
+}
+
+
+
+p{
+    font-family:"roboto"; 
+    font-size:1em;  
+    color: #4D4D4D;
+}
+
+.topstrip{
+
+    height: 40px;
+    background: #48BAAA;
+}
+
+
+.heading-container{
+background: #F4F2F5;
+border-bottom: 1px solid #BFBFBF;
+display: grid;
+grid-template-columns: 100px auto;
+padding: 10px 40px;
+align-items: center;
+}
+
+
+.alltitles{
+    text-align: center;
+}
+
+
+h5{
+
+    font-family: "roboto condensed";
+    font-size:22px;
+    color: #404040;
+    font-weight: bold;
+
+}
+
+
+h1{
+
+
+    font-family: "libre franklin";
+    font-size: 2em;
+    color: #FF491D;
+    font-weight: bold;
+
+
+}
+
+
+h2{
+
+
+    font-family:"roboto condensed";
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+
+
+}
+
+
+
+
+.heading-container p{font-size: .8em; font-weight: bold;}
+
+
+.navigation-links{
+
+    padding: 0 40px;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #404040;
+    font-family: "roboto condensed";
+    font-weight: bold;
+    font-size: 1.01em;
+    padding:0 14px;
+}
+
+.bg-light{
+
+
+    background:none !important;
+
+}
+.header-blue{
+
+
+    background:#48BAAA;
+    padding: 30px 40px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap:30px;
+
+}
+
+
+.boxes  {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
+    text-align: center; 
+
+}
+
+
+.boxes > div {
+
+    background:#fff;
+    padding: 10px 10px 5px 10px;
+    border-radius: 5px;
+    min-height: 120px;
+}
+
+
+.boxes > div > div> h5 { 
+   
+    font-size: 0.9em;
+    font-weight: bold;   
+    margin-top:8px;
+
+}
+
+.homecarousel{
+
+    width:auto;
+    border-radius: 10px;
+    border:10px solid #fff;
+}
+
+
+.boxes > div > div> h5 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+
+.orange-strip{
+
+
+    color: #fff;
+    font-family:"roboto condensed";
+    font-size:bold;
+    background:#FF491D;
+    padding: 5px 0  0 0;
+}
+
+
+.about-section{
+
+
+    padding: 30px 40px;
+    display: grid;
+    grid-template-columns: 3fr  2fr;
+    grid-gap:30px;
+    background:#EFEFEF;
+}
+
+
+
+
+.vision-content p{
+
+    font-family: 'Courgette', cursive;
+    color: #000;
+    font-size:20px;
+    text-align: center;
+    
+
+}
+
+
+
+.welcome-college{
+
+    grid-row: 1 / span 3;
+    grid-column: 2 / span 3;
+
+}
+
+
+.orange-button{
+
+    display:inline-block;
+    line-height: 2.5em;
+    color: #fff;
+    background: #FF491D;
+    font-family: "roboto condensed";
+    padding: 0 15px 0 15px;
+    border-radius:2px;
+   
+}
+
+
+.orange-button:hover{
+
+    text-decoration:none;
+    color: #fff;
+    background:#000;
+}
+
+
+.tabbed-panel{
+
+
+    padding: 20px 40px;
+    background: #F4F4F4;
+
+
+}
+
+
+.int-tabbed-content{
+
+
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 20px;
+    margin: 20px 0 ;
+
+
+}
+
+
+.principal{
+
+
+    border:1px solid rgba(0,0,0,1);
+
+
+}
+
+
+
+.allbulls li 
+{
+
+    font-weight: bold;
+    background:url(../images/pinkbull.svg) no-repeat left center;
+    background-size:10px auto;
+    padding-left:20px;
+
+
+}
+
+
+.tabbed-panel .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #FF491D;
+    border-color: none;
+    font-family: "roboto condensed";
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+
+.tabbed-panel  .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    background: #4D4D4D;
+    color: #fff;
+    border: none;
+    border-radius: 0 !important;
+    font-family: "roboto condensed";
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.tabbed-panel  .nav-link:hover{color: #fff;}
+
+
+.myTabContent{
+
+    border-bottom: 5px solid #FF491D !important;
+
+}
+
+
+.aboutcollege{
+
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px 0;
+
+
+}
+
+
+.tab-pane {border-bottom:10px solid #FF491D;}
+
+
+.greenbluebg{
+
+background:#48BAAA;
+padding: 20px 40px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap:20px;
+
+
+}
+
+
+
+.greenbluebg h2{color: #fff;}
+
+
+
+.article{
+    background:#fff; 
+    margin:10px 0; 
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 90px auto;
+}
+
+
+.article div:first-child{
+
+    background:#FF491D;
+    font-family: "roboto";
+    text-align: center;
+    font-size:13px;
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+    padding:10px 0;
+    font-weight: bold;
+}
+
+
+.article div:first-child span{
+
+    font-size: 25px;
+    font-family: "roboto condensed";
+
+
+}
+
+
+.article div:last-child{
+
+
+    padding:10px 0px 0px 15px;
+
+
+}
+
+
+
+
+
+
+.board
+{
+
+    width:80%;
+    min-height:340px;
+    margin: 0 auto;
+    background: url(../images/mike.jpg) no-repeat center center;
+    background-size: cover;
+    border:5px solid #fff;
+
+}
+
+.board p{font-weight: bold; color: #fff;}
+
+
+.transblack{
+
+
+    background:rgba(0,0,0,0.6);
+    min-height: 340px
+
+}
+
+
+.orangestrip{
+
+    background: url(../images/oragestrip.jpg) no-repeat center center;
+    background-size:cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:10px;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.orangestrip > div {
+
+
+        border-left:1px solid rgba(255,255,255,0.2);
+
+
+}
+
+
+.orangestrip > div > h2{
+
+   color: #fff;
+   font-weight: normal;
+   font-size: 1.2em;
+
+}
+
+
+.orangestrip > div > a{
+
+
+    display: inline-block;
+    padding: 5px 20px;
+    background: #fff;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+
+
+}
+
+
+.orangestrip > div > a:hover{
+
+    text-decoration:none;
+
+}
+
+
+.photogallery{
+
+
+    margin: 20px 0;
+    padding: 0 40px;
+
+
+}
+
+
+.gallery-container {
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:10px;
+
+
+}
+
+
+.noble-alumni{
+
+
+    background:#EFEFEF;
+    padding: 20px 40px;
+
+
+
+}
+
+
+.owl-carousel .owl-item{text-align: center;}
+
+.owl-carousel .owl-item img{
+    
+    width:auto !important; 
+    float: none !important;
+    display: inline-block !important;
+    border-radius: 50%;
+    border:4px solid #FF491D;
+
+}
+
+
+.owl-carousel .owl-item h5{
+
+    font-size:18px;
+    color: #262626;
+    
+    font-family: "roboto condensed";
+    padding-top:20px;
+}
+
+
+.owl-carousel .owl-item p {max-width:250px; display: inline-block; }
+
+
+.noble-alumni h2 a
+
+{
+
+    display:inline-block;
+    margin-left:10px;
+    background:#FF491D;
+    color: #fff;
+    text-decoration: none;
+    font-family: "roboto condensed";
+    font-weight: normal;
+    font-size:15px; 
+    padding: 0 15px;
+    border-radius: 5px;
+
+}
+
+
+
+
+.bottombg{
+
+
+    background:url(../images/footerbg.jpg) no-repeat center center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 20px 40px;
+
+}
+
+
+.bottombg h2{
+
+    line-height: 1.2em;
+    color: #fff;
+}
+
+
+.bottombg p{
+
+color: #fff;
+
+
+}
+
+.bottombg p span{padding-right:10px;}
+
+
+
+.bottommost{
+
+    background:#262626;
+    line-height: 30px;
+    display: grid;
+    color: #fff;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 40px;    
+    
+
+}
+
+
+.bottommost a, .bottommost p{
+
+
+    color:#fff;
+    font-weight: normal;
+    font-size: 15px;
+
+
+}
+
+
+.socialicons a{margin:0 10px;}
+
+.bottomlinks  li  a {
+
+
+    background: url(../images/arrowbull.svg) no-repeat left center;
+    padding: 0 0 0 30px;
+    color:#fff !important;
+
+}
+
+
+
+
+.allinline * {
+    font-size: 12px;
+}
+
+.allinline a,
+.allinline span {
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    *display: inline;
+    margin: 0 5px;
+}
+
+.skiptomain {
+    background: url(../images/downarrow_icon.svg) no-repeat center left;
+    background-size: 15px auto;
+    padding-left: 20px;
+}
+
+
+
+.skiptonav {
+    background: url(../images/downarrow_icon.svg) no-repeat center left;
+    background-size: 15px auto;
+    padding-left: 20px;
+}
+
+
+
+.screenreader {
+    background: url(../images/speaker_icon.svg) no-repeat center left;
+    background-size: 20px auto;
+    padding-left: 30px;
+}
+
+
+
+.black-css{  line-height: 22px !important; width: 20px; background: #6D6D6D; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.blue-css{   line-height: 22px !important; width: 20px; background: #48baaa; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.green-css{  line-height: 22px !important; width: 20px; background: #1AA82A; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+.orange-css{ line-height: 22px !important; width: 20px; background: #D5473D; border-radius: 2px; border:1px solid rgba(255,255,255,0.4);}
+
+
+.internal{
+
+display: grid;
+grid-template-columns: 300px auto;
+padding: 20px 40px;
+grid-gap: 20px;
+
+}
+
+
+.box-container{
+
+    background: #48BAAA;
+    padding: 20px;
+    border-radius: 2px;
+
+}
